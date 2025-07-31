@@ -1,0 +1,56 @@
+# Binários compilados
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Diretório de builds ou binários
+/build/
+/bin/
+/dist/
+
+# Diretórios de dependências (caso use vendoring)
+vendor/
+
+# Arquivos de logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.swp
+*.swo
+*.bak
+*.old
+*.orig
+
+# Arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDEs e editores
+.vscode/
+.idea/
+*.code-workspace
+
+# Arquivos do Go
+coverage.out
+
+# Testes e caches
+*.coverprofile
+*.cover.out
+*.test
+*.prof
+
+# Módulo Go específico
+go.sum
+
+# Cache do Go (não é necessário versionar)
+**/.cache/
+
+# Arquivos personalizados
+.env
+.env.*
+config.yaml

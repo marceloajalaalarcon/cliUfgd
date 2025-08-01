@@ -20,6 +20,11 @@ Este projeto é uma ferramenta de linha de comando desenvolvida em Go para facil
 git clone https://github.com/marceloajalaalarcon/cliUfgd.git
 cd cliUfgd
 ```
+### 1.2 Baixar as dependências
+
+```bash
+go mod tidy
+```
 
 ### 2. Criar um novo evento
 
